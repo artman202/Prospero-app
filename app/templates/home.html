@@ -1,0 +1,17 @@
+<ion-view view-title="{{logo}}">
+  	<ion-content class="content">
+	  	<a ng-href="#/app/services-single" class="row row-serv" ng-click="servName('{{service.serviceName}}')" ng-repeat="service in services">
+	  		<div class="col serv-item">
+	  			<div class="row">
+		  			<div class="col col-25">
+		  				
+		  			</div>
+		  			<div class="col col-75">
+		  				<h4>{{service.serviceName}}</h4>
+		  				<p>{{service.serviceDesc | limitTo:85}}...</p>
+		  			</div>
+		  		</div>
+	  		</div>
+		</a>
+  	</ion-content>
+</ion-view>

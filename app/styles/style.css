@@ -1,0 +1,31 @@
+/* Empty. Add your own CSS if you like */
+.content {padding: 20px 15px;}
+
+.bar {height: 4em; background-color: #005989 !important;
+	-webkit-box-shadow: 0px -23px 15px 28px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px -23px 15px 28px rgba(0,0,0,0.2);
+	box-shadow: 0px -23px 15px 28px rgba(0,0,0,0.2);
+}
+.bar.bar-stable .title {color: white !important;}
+.bar-stable .button.button-clear {color: white;}
+.bar .title {top: 6px;}
+
+.ion-navicon {top: 6px !important;}
+
+.header-logo {width: 145px;}
+.has-header {top: 4em;}
+
+.row-serv {text-decoration: none;}
+.row-serv p {color: #333;}
+
+.serv-item {padding: 0;	margin-bottom: 1em;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5); 
+}
+
+.serv-icon {
+}
+
+.serv-desc {
+}
