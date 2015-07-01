@@ -1,14 +1,17 @@
-<ion-view view-title="{{logo}}">
+<ion-view view-title="{{logo}}" >
   	<ion-content class="content">
+  		<!-- <button class="share-icon" ng-click="shareNative()"><br><br><br>This is a share button<br><br><br></button> -->
 	  	<a ng-href="#/app/services-single" class="row row-serv" ng-click="servName('{{service.serviceName}}')" ng-repeat="service in services">
 	  		<div class="col serv-item">
-	  			<div class="row">
-		  			<div class="col col-25">
-		  				
+	  			<div class="row no-padding center">
+		  			<div class="serv-icon-wrapper no-padding ">
+		  				<img src="{{service.serviceIcon}}" width="100%" alt="">
 		  			</div>
-		  			<div class="col col-75">
-		  				<h4>{{service.serviceName}}</h4>
-		  				<p>{{service.serviceDesc | limitTo:85}}...</p>
+		  			<div class="serv-desc-wrapper">
+		  				<div class="v-align">
+			  				<h4 class="v-align">{{service.serviceName}}</h4>
+			  				<p class="no-margin">{{service.serviceDesc | limitTo:65}}...</p>
+			  			</div>
 		  			</div>
 		  		</div>
 	  		</div>
